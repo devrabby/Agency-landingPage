@@ -30,7 +30,7 @@ const Footer = ({ theme }) => {
             <hr className='border-gray-300 dark:border-gray-600 my-6' />
 
             <div className='pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap'>
-                <p>Copyright 2025 RabbyCode</p>
+                <p>Copyright 2025 RabbyCode Tested and trusted </p>
                 <div className='flex justify-between gap-4 items-center'>
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.instagram_icon} alt="" />
