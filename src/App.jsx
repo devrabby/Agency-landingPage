@@ -8,6 +8,7 @@ import Team from './component/Team';
 import ContactUs from './component/ContactUs';
 import { Toaster } from 'react-hot-toast';
 import Footer from './component/Footer';
+import { motion } from "motion/react"
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
