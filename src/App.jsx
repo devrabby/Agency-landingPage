@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import Navbar from './component/navbar'
+import React, { useState } from 'react';
 import Hero from './component/Hero';
 import Thursted from './component/Thursted';
 import Services from './component/Services';
@@ -8,7 +7,8 @@ import Team from './component/Team';
 import ContactUs from './component/ContactUs';
 import { Toaster } from 'react-hot-toast';
 import Footer from './component/Footer';
-import { motion } from "motion/react"
+import Navbar from './component/Navbar';
+
 
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className='dark:bg-black relative'>
       <Toaster />
-      <Navbar theme={theme} setTheme={setTheme} />
+      <Navbar theme={theme} setTheme={setTheme}/>
       <Hero />
       <Thursted />
       <Services />
