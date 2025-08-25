@@ -7,7 +7,8 @@ import Team from './component/Team';
 import ContactUs from './component/ContactUs';
 import { Toaster } from 'react-hot-toast';
 import Footer from './component/Footer';
-import Navbar from './component/navbar';
+import Navbar from './component/Navbar/navbar';
+
 
 
 const App = () => {
@@ -16,7 +17,8 @@ const App = () => {
   return (
     <div className='dark:bg-black relative'>
       <Toaster />
-      <Navbar theme={theme} setTheme={setTheme}/>
+      {/* <Navbar theme={theme} setTheme={setTheme}/> */}
+      <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
       <Thursted />
       <Services />

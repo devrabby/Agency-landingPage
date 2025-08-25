@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import assets from '../assets/assets'
-import Thoggle from './Thoggle';
+import assets from '../../assets/assets'
+import Thoggle from '../Thoggle';
 import { motion } from "motion/react"
 
 
