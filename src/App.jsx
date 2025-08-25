@@ -7,7 +7,7 @@ import Team from './component/Team';
 import ContactUs from './component/ContactUs';
 import { Toaster } from 'react-hot-toast';
 import Footer from './component/Footer';
-import Navbar from './component/Navbar';
+import Navbar from './component/navbar';
 
 
 const App = () => {
